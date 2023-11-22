@@ -1,0 +1,52 @@
+image,discription,key_words,keys,contexts
+other_images/Figure_2_0.png,"Figure 1: Overall pre-training and fine-tuning procedures for BERT. Apart from output layers, the same architec-
+tures are used in both pre-training and fine-tuning. The same pre-trained model parameters are used to initialize
+models for different down-stream tasks. During fine-tuning, all parameters are fine-tuned. [CLS] is a special
+
+symbol added in front of every input example, and [SEP] is a special separator token (e.g. separating ques-
+tions/answers).
+",Figure 1:,"['Fig. 1', 'Figure 1', 'Figure 1:']","[[], [' TokM  Masked Sentence A Masked Sentence B  Pre-training Fine-Tuning NSP Mask LM Mask LM  Unlabeled Sentence A and B Pair SQuAD  Question Answer Pair NER MNLI Figure 1: Overall pre-training and ﬁne-tuning procedures for BERT', ' The question-answering example in Figure 1 will serve as a running example for this section', ' As shown in Figure 1, we denote input embedding as E, the ﬁnal hidden vector of the special [CLS] token asC2RH, and the ﬁnal hidden vector for the ithinput token asTi2RH', ' This step is presented in the left part of Figure 1', ' As we show in Figure 1, Cis used for next sentence predic- tion (NSP)', ' As shown in Figure 1, in the question answer- ing task, we represent the input question and pas- sage as a single packed sequence, with the ques- tion using the Aembedding and the passage using theBembedding'], [' TokM  Masked Sentence A Masked Sentence B  Pre-training Fine-Tuning NSP Mask LM Mask LM  Unlabeled Sentence A and B Pair SQuAD  Question Answer Pair NER MNLI Figure 1: Overall pre-training and ﬁne-tuning procedures for BERT']]"
+other_images/Figure_4_0.png,"Figure 2: BERT input representation. The input embeddings are the sum of the token embeddings, the segmenta-
+tion embeddings and the position embeddings.
+",Figure 2:,"['Fig. 2', 'Figure 2', 'Figure 2:']","[[], [' A visualiza- tion of this construction can be seen in Figure 2', '[CLS] helikesplay## ing[SEP] mydogiscute[SEP]Input  E[CLS] Ehe Elikes Eplay E## ing E[SEP] Emy Edog Eis Ecute E[SEP] Token  Embeddings  EA EB EB EB EB EB EA EA EA EA EASegment  Embeddings  E0 E6 E7 E8 E9 E10 E1 E2 E3 E4 E5Position  Embeddings Figure 2: BERT input representation'], ['[CLS] helikesplay## ing[SEP] mydogiscute[SEP]Input  E[CLS] Ehe Elikes Eplay E## ing E[SEP] Emy Edog Eis Ecute E[SEP] Token  Embeddings  EA EB EB EB EB EB EA EA EA EA EASegment  Embeddings  E0 E6 E7 E8 E9 E10 E1 E2 E3 E4 E5Position  Embeddings Figure 2: BERT input representation']]"
+other_images/Figure_6_0.png,"Table 2: SQuAD 1.1 results. The BERT ensemble
+is 7x systems which use different pre-training check-
+points and fine-tuning seeds.
+",Table 2: ,"['Table 2', 'Table 2:']","[[' Table 2 shows top leaderboard entries as well as results from top published systems (Seo et al', '2 Table 2: SQuAD 1'], ['2 Table 2: SQuAD 1']]"
+other_images/Figure_6_8.png,"Table 4: SWAG Dev and Test accuracies. ‘Human per-
+formance is measured with 100 samples, as reported in
+the SWAG paper.
+",Table 4: ,"['Table 4', 'Table 4:']","[['0 Table 4: SWAG Dev and Test accuracies', ' Re- sults are presented in Table 4'], ['0 Table 4: SWAG Dev and Test accuracies']]"
+other_images/Figure_7_0.png,"Table 5: Ablation over the pre-training tasks using the
+BERTgase architecture. “No NSP” is trained without
+the next sentence prediction task. “LTR & No NSP” is
+trained as a left-to-right LM without the next sentence
+prediction, like OpenAI GPT. “+ BiLSTM” adds a ran-
+domly initialized BiLSTM on top of the “LTR + No
+NSP” model during fine-tuning.
+",Table 5: ,"['Table 5', 'Table 5:']","[['9 Table 5: Ablation over the pre-training tasks using the BERT BASE architecture', ' In Table 5, we show that removing NSP hurts performance signiﬁcantly on QNLI, MNLI, and SQuAD 1'], ['9 Table 5: Ablation over the pre-training tasks using the BERT BASE architecture']]"
+other_images/Table_8_3.png,"Table 6: Ablation over BERT model size. #L = the
+number of layers; #H = hidden size; #A = number of at-
+tention heads. “LM (ppl)” is the masked LM perplexity
+of held-out training data.
+",Table 6: ,"['Table 6', 'Table 6:']","[[' Results on selected GLUE tasks are shown in Table 6', ' It has long been known that increasing the model size will lead to continual improvements on large-scale tasks such as machine translation and language modeling, which is demonstrated by the LM perplexity of held-out training data shown in Table 6', '7 Table 6: Ablation over BERT model size'], ['7 Table 6: Ablation over BERT model size']]"
+other_images/Figure_8_5.png,"Table 7: CoNLL-2003 Named Entity Recognition re-
+sults. Hyperparameters were selected using the Dev
+set. The reported Dev and Test scores are averaged over
+5 random restarts using those hyperparameters.
+",Table 7: ,"['Table 7', 'Table 7:']","[['5 - Table 7: CoNLL-2003 Named Entity Recognition re- sults', ' Results are presented in Table 7'], ['5 - Table 7: CoNLL-2003 Named Entity Recognition re- sults']]"
+other_images/Figure_12_0.png,"Figure 3: Differences in pre-training model architectures. BERT uses a bidirectional Transformer. OpenAI GPT
+uses a left-to-right Transformer. ELMo uses the concatenation of independently trained left-to-right and right-to-
+left LSTMs to generate features for downstream tasks. Among the three, only BERT representations are jointly
+conditioned on both left and right context in all layers. In addition to the architecture differences, BERT and
+OpenAI GPT are fine-tuning approaches, while ELMo is a feature-based approach.
+",Figure 3:,"['Fig. 3', 'Figure 3', 'Figure 3:']","[[], ['Figure 3: Differences in pre-training model architectures', ' The comparisons be- tween the model architectures are shown visually in Figure 3'], ['Figure 3: Differences in pre-training model architectures']]"
+other_images/Figure_14_0.png,"Figure 4: Illustrations of Fine-tuning BERT on Different Tasks.
+",Figure 4:,"['Fig. 4', 'Figure 4', 'Figure 4:']","[[], ['5 Illustrations of Fine-tuning on Different Tasks The illustration of ﬁne-tuning BERT on different tasks can be seen in Figure 4', 'Sentence 2  Figure 4: Illustrations of Fine-tuning BERT on Different Tasks'], ['Sentence 2  Figure 4: Illustrations of Fine-tuning BERT on Different Tasks']]"
+other_images/Figure_14_6.png,,,,[]
+other_images/Figure_15_4.png,"Figure 5: Ablation over number of training steps. This
+shows the MNLI accuracy after fine-tuning, starting
+from model parameters that have been pre-trained for
+k steps. The x-axis is the value of k.
+",Figure 5:,"['Fig. 5', 'Figure 5', 'Figure 5:']","[[], ['1 Effect of Number of Training Steps Figure 5 presents MNLI Dev accuracy after ﬁne- tuning from a checkpoint that has been pre-trained forksteps', ' 200 400 600 800 1;0007678808284 Pre-training Steps (Thousands)MNLI Dev Accuracy BERT BASE (Masked LM) BERT BASE (Left-to-Right) Figure 5: Ablation over number of training steps'], [' 200 400 600 800 1;0007678808284 Pre-training Steps (Thousands)MNLI Dev Accuracy BERT BASE (Masked LM) BERT BASE (Left-to-Right) Figure 5: Ablation over number of training steps']]"
+other_images/Table_15_7.png,,,,[]

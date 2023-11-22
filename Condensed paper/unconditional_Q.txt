@@ -1,0 +1,7 @@
+What problem is the paper addressing? including the problem setting if possible?
+What is the motivation of the paper?
+What are the main contributions of the paper?
+What datasets were employed?
+What is the experimental setting? and what is the main experimental discovery?
+Is there any ablation study? if yes, what is the result?
+What is the key conclusion? 
