@@ -1,6 +1,6 @@
 # Condensed-Paper
 
-__generate a structured paper summary with graphs__
+__Generate a structured paper summary with graphs__
 
 This project introduces an innovative approach to structured summarization, catering to the evolving landscape of scholarly papers. Utilizing Large Language Models (LLMs), image segmentation, orchestrated question design, and NLP techniques, the workflow generates condensed and well-structured condensed research paper summaries. Notable features include the selective retention of key formulas, graphs, and tables. Initially addressing AI research papers, the methodology dissects and integrates paper components, adapting text processing to varying information density. 
 
@@ -10,8 +10,9 @@ The overview summary employs question-driven generation, while the methodology p
 1. install everything in requirements.txt
 2. set an environment file ".env" with the content "OPENAI_API_KEY='(your openai key)'"
 3. put the path of the paper you want to summary and run 'main.py'
+   
 Note: V2_summary.md (or V1.5_summary.md) will be generated as result, which can be converted into PDF easily. I use 'Markdown PDF' extension from VS code to convert.
-4. run 'clear.py' to empty unnecessary generated files, preparing for next run.
+5. run 'clear.py' to empty unnecessary generated files, preparing for next run.
 
 ##### 'jupyterNotebooks' folder contains a display of intermediate steps and intermediate results.
 
