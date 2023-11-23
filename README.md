@@ -1,6 +1,6 @@
 # Condensed-Paper
 
-__Detailed intro can be found in 'Condensed paper report'__
+__Detailed intro can be found in 'Condensed paper report.pdf'__
 
 
 ## How to use
