@@ -1,8 +1,5 @@
 # Condensed-Paper
 
-__Detailed intro can be found in 'Condensed paper report.pdf'__
-
-
 ## How to use
 1. install everything in requirements.txt
 2. set an environment file ".env" with the content "OPENAI_API_KEY='(your openai key)'"
