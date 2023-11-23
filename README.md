@@ -1,10 +1,7 @@
 # Condensed-Paper
 
-__Generate a structured paper summary with graphs__
+__Detailed intro can be found in 'Condensed paper report'__
 
-This project introduces an innovative approach to structured summarization, catering to the evolving landscape of scholarly papers. Utilizing Large Language Models (LLMs), image segmentation, orchestrated question design, and NLP techniques, the workflow generates condensed and well-structured condensed research paper summaries. Notable features include the selective retention of key formulas, graphs, and tables. Initially addressing AI research papers, the methodology dissects and integrates paper components, adapting text processing to varying information density. 
-
-The overview summary employs question-driven generation, while the methodology part utilizes LLMs for detailed insights. The formula is inserted using OCR recognition and similarity matching of the generated summary, while other graphs are matched based on in-text references key word. Overcoming limitations of existing summarization models, the project produced a structurally detailed and visually appealing summary of a research papers.
 
 ## How to use
 1. install everything in requirements.txt
